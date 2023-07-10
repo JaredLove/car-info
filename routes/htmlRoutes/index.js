@@ -9,3 +9,6 @@ router.get('/', (req, res) => {
 router.get('/cars', (req, res) => {
         res.sendFile(path.join(__dirname, '../../public/cars.html'));
       });
+
+
+module.exports = router;
